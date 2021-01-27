@@ -3,6 +3,7 @@
 import os, system
 if os.getuid() != 0;
   print("Ejecutalo con sudo")
+  system.exit(1)
 else:
   address = "{address}"
   net = '"net"'
