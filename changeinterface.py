@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # Ejecutar script con sudo python3 changeinterface.py
-import os, system
-if os.getuid() != 0;
+import os, sys
+if os.getuid() != 0:
   print("Ejecutalo con sudo")
-  system.exit(1)
+  sys.exit(1)
 else:
   address = "{address}"
   net = '"net"'
