@@ -1,3 +1,4 @@
+#/usr/bin/python3
 import os, sys, subprocess
 # Ejecutar con sudo python3 changeinterface.py
 if os.getuid() != 0:
