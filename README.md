@@ -1,6 +1,6 @@
 # scripts
 <h2> Changeinterface.py </h2>
-Este script te permite cambiar el nombre de una interfaz de red comodamente.
+Este script te permite cambiar el nombre de una interfaz de red comodamente.\n
 This script allow you to change the name of a network interface fastly.
 
 <h2> whichsystem.py </h2>
