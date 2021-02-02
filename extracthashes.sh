@@ -30,7 +30,7 @@ for i in $(cat /etc/shadow | cut -d ":" -f 1,2); do
                 $(echo $i >> extractedhashes)
         fi
 done
-echo -e "\n${turquoiseColour}Hashes has been exported to the file extractedhashes${endColour}"
+echo -e "\n${turquoiseColour}Hashes have been exported to the file extractedhashes${endColour}"
 echo "
 
   _____   __  ____   ____  ____  ______      ____   __ __      __ __   ___   __ __   ___   ___     ____  __ __    ___  _      ____  ___   ____  
