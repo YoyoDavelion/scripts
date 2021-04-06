@@ -13,7 +13,7 @@ r = requests.Session()
 url = 'http://%s.elbruto.es/login' %(sys.argv[1])
 checkbrute = r.get(url)
 if "Puerta de la celda" not in checkbrute.text:
-	print("The brute does not exist")
+	print("The brute do not exist")
 	sys.exit(1)
 # Check if wordlist exists.
 if str(os.path.exists(sys.argv[2])) == "False":
